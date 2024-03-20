@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.skii{
+			height: 15px;
+			widows: 15px;
+		}
+		.skoo{
+			height: 15px;
+			widows: 15px;
+		}
+		.skuu{
+			height: 15px;
+			widows: 15px;
+		}
+		.skee{
+			height: 15px;
+			widows: 15px;
+		}
+		.reg{
+			border-radius: 12px;
+			width: 25%;
+			background-color: #008CBA;
+			color: whitesmoke;
+
+
+		}
+		.pips{
+			width: 50%;
+			border-radius: 12px;
+			font-weight: bold;
+			padding-block-start: 5px;
+			margin-bottom: 10px;
+			font-stretch: 3px;
+			padding-left: 20px;
+
+		}
+		.pops{
+			width: 50%;
+			border-radius: 12px;
+			font-weight: bold;
+			padding-block-start: 5px;
+			margin-bottom: 10px;
+			padding-left: 20px;
+		}
+		.peps{
+			width: 50%;
+			border-radius: 12px;
+			font-weight: bold;
+			padding-block-start: 5px;
+			margin-bottom: 10px;
+			padding-left: 20px;
+
+		}
+		.paps{
+			width: 50%;
+			border-radius: 12px;
+			font-weight: bold;
+			padding-block-start: 5px;
+			margin-bottom: 10px;
+			padding-left: 20px;
+
+		}
+		.wrap{
+			width: 50%;
+			border-radius: 12px;
+			margin-right: 50px;
+			margin-left: 50px;
+
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+<form>
+	<fieldset class="wrap">
+	<label for="pname"> <img src="user.png" class="skii"> </label>
+	<input type="text" name="pname" id="pname" placeholder="Name" class="pips"><br>
+	<label for="email"> <img src="email.png" class="skoo"> </label>
+	<input type="text" name="email" id="email" placeholder="Email ID" class="pops"><br>
+	<label for="phone"> <img src="phone.png" class="skuu"> </label>
+	<input type="text" name="phone" id="phone" placeholder="Phone" class="peps"><br>
+	<label for="password"> <img src="lock.png" class="skee"> </label>
+	<input type="text" name="password" id="password" placeholder="Set Password" class="paps"><br>
+	<input type="button" value="REGISTER" class="reg">
+	</fieldset>
+
+
+
+</form>
+
+
+</body>
+</html>
